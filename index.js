@@ -23,7 +23,7 @@ let token = "EAAIXRThNnBMBAPnlXmUA3LvRKmsZAKwvjCZC7ZB1Or7wifhIVbBXQqzqytNMTGRQtG
 // Facebok
 
 app.get('/webhook/', function(req, res) {
-    if (req.query['hub.verify_token'] === "blondiebytes") {
+    if (req.query['hub.verify_token'] === "utron") {
         res.send(req.query['hub.challenge'])
     }
     res.send("Wrong token") 
