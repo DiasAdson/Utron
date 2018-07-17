@@ -59,6 +59,7 @@ function sendText(sender, text) {
             console.log("sending error")
             console.log(error)
         } else if (response.body.error) {
+            console.log(response.body.error)
             console.log("response body error") 
         }
     })   
