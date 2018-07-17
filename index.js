@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
     res.send("Oi eu sou utron")
 })
 
-token = 
+token = "EAAIXRThNnBMBAPnlXmUA3LvRKmsZAKwvjCZC7ZB1Or7wifhIVbBXQqzqytNMTGRQtGYRH40Pf4JsZCxG5c8vVEYJO8d9m5bpg"
 
 // Facebok
 
