@@ -18,8 +18,8 @@ app.get('/', function(req, res) {
     res.send("Oi eu sou utron")
 })
 
-let token = "EAAIXRThNnBMBAPnlXmUA3LvRKmsZAKwvjCZC7ZB1Or7wifhIVbBXQqzqytNMTGRQtGYRH40Pf4JsZCxG5c8vVEYJO8d9m5bpg"
-
+// let token = "EAAIXRThNnBMBAPnlXmUA3LvRKmsZAKwvjCZC7ZB1Or7wifhIVbBXQqzqytNMTGRQtGYRH40Pf4JsZCxG5c8vVEYJO8d9m5bpg"
+let token = "EAAIXRThNnBMBAMBKvKpPUxZBUKdShzDieSTCOVsHFz4JrHGTXQ1xSLQLAtFTDywZBC5V8sbLYalcxYV5TUDNyCRogZBT9SSkroMdI90syZAQhcVagImO6EZBa4IeKcK4HpKcub9SAYdZCc2VzVuBpZBZCuOYEJMFnTlPFW550U0kNlNAJw4yXXMs"
 // Facebok
 
 app.get('/webhook/', function(req, res) {
